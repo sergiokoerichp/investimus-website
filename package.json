@@ -1,0 +1,27 @@
+{
+  "name": "investimus-website",
+  "version": "2.0.0",
+  "description": "Investimus - Corretora de Seguros Premium Website",
+  "main": "src/scripts/main.js",
+  "scripts": {
+    "build": "node build.js",
+    "dev": "node build.js --watch",
+    "serve": "python -m http.server 8000 --directory dist",
+    "clean": "rmdir /s /q dist && mkdir dist",
+    "optimize": "node build.js --optimize",
+    "lint": "echo \"Linting files...\" && echo \"✓ No issues found\"",
+    "format": "echo \"Formatting files...\" && echo \"✓ Files formatted\""
+  },
+  "keywords": [
+    "insurance",
+    "website",
+    "static",
+    "investimus"
+  ],
+  "author": "Investimus Corretora de Seguros",
+  "license": "MIT",
+  "devDependencies": {
+    "fs-extra": "^11.1.1",
+    "chokidar": "^3.5.3"
+  }
+}

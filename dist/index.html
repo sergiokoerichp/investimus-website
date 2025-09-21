@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{site-config.seo.title}}</title>
+    <meta name="description" content="{{site-config.seo.description}}">
+    <meta name="keywords" content="seguro, corretora de seguros, seguro auto, seguro vida, seguro residencial, seguro empresarial, seguro saúde, previdência privada, Investimus">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="{{site-config.site.name}}">
+    <link rel="canonical" href="{{site-config.site.url}}" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{site-config.site.url}}">
+    <meta property="og:title" content="{{site-config.seo.title}}">
+    <meta property="og:description" content="{{site-config.seo.description}}">
+    <meta property="og:image" content="{{site-config.seo.ogImage}}">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="{{site-config.site.url}}">
+    <meta property="twitter:title" content="{{site-config.seo.title}}">
+    <meta property="twitter:description" content="{{site-config.seo.description}}">
+    <meta property="twitter:image" content="{{site-config.seo.ogImage}}">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/webp" href="{{site-config.site.favicon}}">
+
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.tailwindcss.com">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts - Optimized -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/animations.css">\n    <link rel="stylesheet" href="./styles/components.css">\n    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    <main id="main-content">
+        {{component:header}}
+        {{component:hero}}
+        {{component:services}}
+        {{component:about}}
+        {{component:testimonials}}
+        {{component:faq}}
+        {{component:contact}}
+        {{component:footer}}
+    </main>
+
+    <script src="./scripts/animations.js"></script>\n    <script src="./scripts/forms.js"></script>\n    <script src="./scripts/main.js"></script>\n    <script src="./scripts/navigation.js"></script>
+</body>
+</html>

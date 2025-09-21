@@ -1,0 +1,69 @@
+{
+  "about": {
+    "title": "Sua Parceira em Proteção e Segurança",
+    "subtitle": "Sobre a Investimus",
+    "description": [
+      "Com mais de 15 anos de experiência no mercado de seguros, a Investimus se consolidou como referência em consultoria e corretagem de seguros, oferecendo soluções personalizadas para cada cliente.",
+      "Nossa equipe de especialistas trabalha com as principais seguradoras do mercado, garantindo as melhores coberturas e preços competitivos, sempre com transparência e comprometimento."
+    ],
+    "image": "./assets/25- Marca d_água azul com verde SEM FUNDO.webp",
+    "features": [
+      {
+        "title": "Atendimento Ágil",
+        "description": "Resposta rápida e eficiente",
+        "icon": "lightning",
+        "color": "blue"
+      },
+      {
+        "title": "Melhor Custo",
+        "description": "Economia garantida",
+        "icon": "money",
+        "color": "green"
+      },
+      {
+        "title": "Equipe Expert",
+        "description": "Consultores especializados",
+        "icon": "team",
+        "color": "purple"
+      },
+      {
+        "title": "Total Segurança",
+        "description": "Proteção garantida",
+        "icon": "shield",
+        "color": "red"
+      }
+    ]
+  },
+  "mission": {
+    "title": "Nossa Missão",
+    "description": "Proteger o que é mais importante para você com soluções em seguros personalizadas, transparentes e acessíveis."
+  },
+  "vision": {
+    "title": "Nossa Visão",
+    "description": "Ser a corretora de seguros mais confiável e inovadora do mercado, sempre focada na satisfação e segurança dos nossos clientes."
+  },
+  "values": [
+    {
+      "title": "Transparência",
+      "description": "Clareza em todos os processos e comunicações"
+    },
+    {
+      "title": "Confiabilidade",
+      "description": "Compromisso com a qualidade e segurança"
+    },
+    {
+      "title": "Inovação",
+      "description": "Sempre buscando as melhores soluções"
+    },
+    {
+      "title": "Excelência",
+      "description": "Atendimento de alta qualidade sempre"
+    }
+  ],
+  "stats": {
+    "experience": "15+",
+    "clients": "5000+",
+    "partners": "20+",
+    "satisfaction": "98%"
+  }
+}

@@ -1,0 +1,92 @@
+<!-- Navigation -->
+<nav id="navbar" class="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm border-b border-gray-100 z-50 transition-all duration-300">
+    <div class="container mx-auto px-4 md:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16 md:h-20">
+            <!-- Logo -->
+            <div class="flex items-center space-x-3">
+                <img src="{{site-config.site.logo}}"
+                     alt="{{site-config.site.name}} Logo"
+                     width="150"
+                     height="50"
+                     loading="eager"
+                     class="h-8 md:h-10 w-auto" />
+            </div>
+
+            <!-- Desktop Navigation -->
+            <div class="hidden lg:flex items-center space-x-8">
+                <a href="#inicio" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200">
+                    Início
+                </a>
+                <a href="#servicos" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200">
+                    Serviços
+                </a>
+                <a href="#sobre" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200">
+                    Sobre
+                </a>
+                <a href="#depoimentos" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200">
+                    Depoimentos
+                </a>
+                <a href="#contato" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200">
+                    Contato
+                </a>
+            </div>
+
+            <!-- Desktop CTA -->
+            <div class="hidden lg:flex items-center space-x-4">
+                <a href="tel:{{site-config.contact.phone}}" class="text-blue-600 font-semibold hover:text-blue-700 transition-colors duration-200">
+                    {{site-config.contact.phone}}
+                </a>
+                <a href="#contato" class="btn-primary">
+                    Fazer Cotação
+                </a>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <div class="lg:hidden">
+                <button id="mobile-menu-button"
+                        class="text-gray-600 hover:text-blue-600 focus:outline-none transition-colors duration-200"
+                        aria-label="Menu de navegação"
+                        aria-expanded="false"
+                        aria-controls="mobile-menu">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                         class="h-6 w-6"
+                         fill="none"
+                         viewBox="0 0 24 24"
+                         stroke="currentColor"
+                         aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <div id="mobile-menu" class="lg:hidden hidden border-t border-gray-100 bg-white">
+            <div class="py-4 space-y-4">
+                <a href="#inicio" class="block text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200">
+                    Início
+                </a>
+                <a href="#servicos" class="block text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200">
+                    Serviços
+                </a>
+                <a href="#sobre" class="block text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200">
+                    Sobre
+                </a>
+                <a href="#depoimentos" class="block text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200">
+                    Depoimentos
+                </a>
+                <a href="#contato" class="block text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200">
+                    Contato
+                </a>
+                <div class="pt-4 border-t border-gray-100">
+                    <a href="tel:{{site-config.contact.phone}}" class="block text-blue-600 font-semibold mb-3">
+                        {{site-config.contact.phone}}
+                    </a>
+                    <a href="#contato" class="btn-primary w-full text-center">
+                        Fazer Cotação
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>

@@ -1,0 +1,49 @@
+{
+  "site": {
+    "name": "Investimus",
+    "tagline": "Corretora de Seguros Premium",
+    "description": "Investimus - Corretora de seguros com 15+ anos de experiência. Seguros de vida, auto, residencial, empresarial, saúde e previdência. Cotação online gratuita.",
+    "url": "https://www.investimus.com.br",
+    "logo": "./assets/22- Sublogo azul SEM FUNDO.webp",
+    "favicon": "./assets/30- Símbolo azul SEM FUNDO.webp",
+    "keywords": [
+      "seguro",
+      "corretora de seguros",
+      "seguro auto",
+      "seguro vida",
+      "seguro residencial",
+      "seguro empresarial",
+      "seguro saúde",
+      "previdência privada",
+      "Investimus"
+    ]
+  },
+  "contact": {
+    "phone": "(11) 98765-4321",
+    "email": "contato@investimus.com.br",
+    "whatsapp": "(11) 98765-4321",
+    "address": {
+      "street": "Rua das Empresas, 123",
+      "city": "São Paulo",
+      "state": "SP",
+      "zipcode": "01234-567"
+    },
+    "social": {
+      "facebook": "https://facebook.com/investimus",
+      "instagram": "https://instagram.com/investimus",
+      "linkedin": "https://linkedin.com/company/investimus"
+    }
+  },
+  "business": {
+    "established": "2008",
+    "experience": "15+",
+    "clients": "5000+",
+    "partnerships": "20+",
+    "coverage": "Nacional"
+  },
+  "seo": {
+    "title": "Investimus | Corretora de Seguros Premium - Proteção Completa",
+    "description": "Investimus - Corretora de seguros com 15+ anos de experiência. Seguros de vida, auto, residencial, empresarial, saúde e previdência. Cotação online gratuita.",
+    "ogImage": "https://www.investimus.com.br/assets/22-Sublogo-azul-SEM-FUNDO.webp"
+  }
+}

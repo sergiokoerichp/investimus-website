@@ -1,0 +1,88 @@
+{
+  "services": [
+    {
+      "id": "auto",
+      "title": "Seguro Auto",
+      "description": "Proteção completa para seu veículo com as melhores seguradoras do mercado. Cobertura para roubo, furto, colisão e terceiros.",
+      "features": [
+        "Cobertura completa",
+        "Assistência 24h",
+        "Carro reserva"
+      ],
+      "icon": "car",
+      "color": "blue",
+      "gradient": "from-blue-50 to-blue-100",
+      "textColor": "text-blue-600"
+    },
+    {
+      "id": "vida",
+      "title": "Seguro de Vida",
+      "description": "Tranquilidade e segurança para você e sua família. Cobertura em caso de morte, invalidez e doenças graves.",
+      "features": [
+        "Indenização garantida",
+        "Cobertura ampla",
+        "Sem carência"
+      ],
+      "icon": "heart",
+      "color": "red",
+      "gradient": "from-red-50 to-red-100",
+      "textColor": "text-red-600"
+    },
+    {
+      "id": "residencial",
+      "title": "Seguro Residencial",
+      "description": "Proteja seu lar contra incêndio, roubo, danos elétricos e muito mais. Sua casa sempre segura.",
+      "features": [
+        "Proteção total",
+        "Cobertura residencial",
+        "Assistência domiciliar"
+      ],
+      "icon": "home",
+      "color": "green",
+      "gradient": "from-green-50 to-green-100",
+      "textColor": "text-green-600"
+    },
+    {
+      "id": "empresarial",
+      "title": "Seguro Empresarial",
+      "description": "Proteção completa para seu negócio. Cobertura patrimonial, responsabilidade civil e lucros cessantes.",
+      "features": [
+        "Proteção patrimonial",
+        "Lucros cessantes",
+        "RC profissional"
+      ],
+      "icon": "building",
+      "color": "purple",
+      "gradient": "from-purple-50 to-purple-100",
+      "textColor": "text-purple-600"
+    },
+    {
+      "id": "saude",
+      "title": "Seguro Saúde",
+      "description": "Planos de saúde completos com ampla rede credenciada. Consultas, exames e internações com qualidade.",
+      "features": [
+        "Rede credenciada ampla",
+        "Sem carência",
+        "Telemedicina inclusa"
+      ],
+      "icon": "medical",
+      "color": "teal",
+      "gradient": "from-teal-50 to-teal-100",
+      "textColor": "text-teal-600"
+    },
+    {
+      "id": "previdencia",
+      "title": "Previdência Privada",
+      "description": "Planeje sua aposentadoria com segurança. Planos PGBL e VGBL com rentabilidade acima da média.",
+      "features": [
+        "Benefício fiscal",
+        "Gestão profissional",
+        "Portabilidade garantida"
+      ],
+      "icon": "money",
+      "color": "yellow",
+      "gradient": "from-yellow-50 to-yellow-100",
+      "textColor": "text-yellow-600"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Maria Silva",
+      "role": "Empresária",
+      "company": "Silva & Associados",
+      "content": "A Investimus me ajudou a encontrar o seguro empresarial perfeito. Atendimento excepcional e preços justos. Recomendo!",
+      "rating": 5,
+      "image": "./assets/testimonial-1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "João Santos",
+      "role": "Autônomo",
+      "company": "Consultor Financeiro",
+      "content": "Excelente atendimento! Consegui um seguro auto com cobertura completa por um preço muito bom. Equipe muito profissional.",
+      "rating": 5,
+      "image": "./assets/testimonial-2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Ana Costa",
+      "role": "Arquiteta",
+      "company": "Costa Arquitetura",
+      "content": "Fiz meu seguro residencial com a Investimus e estou muito satisfeita. Processo rápido e transparente. Parabéns pela qualidade!",
+      "rating": 5,
+      "image": "./assets/testimonial-3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Carlos Oliveira",
+      "role": "Diretor",
+      "company": "Tech Solutions",
+      "content": "A Investimus superou minhas expectativas. Seguro de vida com excelente custo-benefício e atendimento personalizado.",
+      "rating": 5,
+      "image": "./assets/testimonial-4.jpg"
+    }
+  ]
+}

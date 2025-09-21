@@ -1,0 +1,120 @@
+<!-- Hero Section -->
+<section id="inicio" class="hero-gradient min-h-screen flex items-center relative pt-16 md:pt-20">
+    <div class="container mx-auto px-4 md:px-6 lg:px-8 relative z-10">
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+            <!-- Content Side -->
+            <div class="text-center lg:text-left animate-slideInLeft">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
+                    Proteção e
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-green-400">
+                        Tranquilidade
+                    </span>
+                    para Toda Vida
+                </h1>
+
+                <p class="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed">
+                    {{site-config.business.experience}} anos protegendo o que é mais importante para você.
+                    Seguros personalizados com as melhores condições do mercado.
+                </p>
+
+                <!-- Features List -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-10">
+                    <div class="flex items-center space-x-3 text-white/90">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        </svg>
+                        <span class="font-medium">Atendimento 24/7</span>
+                    </div>
+                    <div class="flex items-center space-x-3 text-white/90">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        </svg>
+                        <span class="font-medium">Cotação Gratuita</span>
+                    </div>
+                    <div class="flex items-center space-x-3 text-white/90">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        </svg>
+                        <span class="font-medium">Melhores Preços</span>
+                    </div>
+                    <div class="flex items-center space-x-3 text-white/90">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        </svg>
+                        <span class="font-medium">Mais de {{site-config.business.clients}} Clientes</span>
+                    </div>
+                </div>
+
+                <!-- CTA Buttons -->
+                <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                    <a href="#contato" class="btn-primary bg-white text-blue-600 hover:bg-gray-100">
+                        Fazer Cotação Grátis
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                    </a>
+                    <a href="tel:{{site-config.contact.phone}}" class="btn-secondary border-white text-white hover:bg-white hover:text-blue-600">
+                        Ligar Agora
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Quick Quote Form -->
+            <div class="animate-slideInRight">
+                <div class="glass rounded-2xl p-8 max-w-md mx-auto lg:mx-0">
+                    <h3 class="text-2xl font-bold text-white mb-6 text-center">
+                        Cotação Rápida
+                    </h3>
+
+                    <form class="space-y-4" id="hero-form">
+                        <input type="text"
+                               name="name"
+                               placeholder="Seu nome completo"
+                               aria-label="Nome completo"
+                               class="form-input bg-white/90 backdrop-blur-sm"
+                               required>
+
+                        <input type="tel"
+                               name="phone"
+                               placeholder="(11) 98765-4321"
+                               aria-label="Telefone"
+                               pattern="\\([0-9]{2}\\) [0-9]{4,5}-[0-9]{4}"
+                               title="Formato: (11) 98765-4321"
+                               class="form-input bg-white/90 backdrop-blur-sm"
+                               required>
+
+                        <select name="insurance"
+                                aria-label="Tipo de seguro"
+                                class="form-input bg-white/90 backdrop-blur-sm"
+                                required>
+                            <option value="">Tipo de seguro</option>
+                            <option value="auto">Seguro Auto</option>
+                            <option value="vida">Seguro de Vida</option>
+                            <option value="residencial">Seguro Residencial</option>
+                            <option value="empresarial">Seguro Empresarial</option>
+                            <option value="saude">Seguro Saúde</option>
+                            <option value="previdencia">Previdência Privada</option>
+                        </select>
+
+                        <button type="submit" class="btn-primary w-full bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700">
+                            Receber Cotação
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                            </svg>
+                        </button>
+                    </form>
+
+                    <p class="text-white/80 text-sm text-center mt-4">
+                        💡 Resposta em até 30 minutos
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Decorative Elements -->
+    <div class="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent"></div>
+</section>
